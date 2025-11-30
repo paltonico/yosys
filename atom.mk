@@ -22,7 +22,7 @@ define LOCAL_CMD_BUILD
 endef
 
 # Build install
-define LOCAL_CMD_BUILD
+define LOCAL_CMD_INSTALL
 	@echo "Installing yosys"
 	$(MAKE) install $(YOSYS_MAKE_ARGS)
 	@echo "yosys installed"
